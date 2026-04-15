@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(197, 214, 254);
+}
+.barrenav {
+  width: 100%;
+  height: 60px;
+
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  top: 0;
+  position: fixed;
+  
+}
+.logo {
+  width: 45px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(80deg, rgb(47, 47, 234), rgb(134, 134, 243));
+  margin: 0 0 0 10px;
+  border-radius: 8px;
+  color: white;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+li {
+  width: 70px;
+  height: 15px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: "lato", sans-serif;
+}
+
+.container {
+  width: 70%;
+  height: 450px;
+  margin: 30px auto;
+  border-radius: 25px;
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desc {
+  width: 240px;
+  height: 25px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(206, 231, 255);
+}
+.desc p {
+  color: rgb(71, 71, 255);
+  font-weight: 600;
+  font-size: medium;
+}
+.cons {
+  width: 55%;
+  height: auto;
+  margin-top: 20px;
+}
+.cons h1 {
+  font-size: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cons p {
+  color: grey;
+  margin-top: 20px;
+
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+  display: flex;
+  gap: 15px;
+  
+}
+.vmp {
+  width: 180px;
+  height: 45px;
+  border-radius: 13px;
+  margin-top: 20px;
+  background: linear-gradient(80deg, rgb(58, 58, 202), rgb(134, 134, 243));
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Mc {
+  width: 180px;
+  height: 45px;
+  border-radius: 13px;
+  margin-top: 20px;
+  color: rgb(9, 23, 51);
+  font-size: medium;
+  font-weight: 700;
+  border: 2px solid grey;
+  background-color: white;
+}
+.vmp a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.Mc a {
+  text-decoration: none;
+  color: rgb(9, 23, 51);
+}
+
+.stat {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+.prea {
+  height: 50px;
+  width: 110px;
+  border: 0.1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  line-height: 25px;
+}
+.motiv {
+  height: 50px;
+  width: 180px;
+  border: 0.1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 25px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+.ui {
+  height: 50px;
+  width: 170px;
+  border: 0.1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 25px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+.stat h3 {
+  color: rgb(58, 58, 202);
+}
+.stat p {
+  color: rgb(91, 90, 90);
+  font-size: small;
+  font-weight: 520;
+}
+.maphoto {
+  width: 670px;
+  height: 400px;
+  margin: 30px auto;
+  background-image: url(img/Picture.jpeg);
+  background-size: cover;
+  background-position: center-center;
+  border-radius: 15px;
+  box-shadow: 5px 7px 8px rgba(0, 0, 0, 0.3);
+}
+.desphoto {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgb(206, 231, 255);
+  padding: 10px;
+  transform: translate(-110px, 55px);
+  opacity: 0.8;
+}
