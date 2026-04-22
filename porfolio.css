@@ -71,11 +71,10 @@ li a {
   font-family: Arial, Helvetica, sans-serif;
 }
 .cons p {
-color: rgb(91, 90, 90);
+  color: rgb(91, 90, 90);
   font-size: bold;
   margin-top: 20px;
   font-weight: 520;
-
 }
 .btn {
   display: flex;
@@ -160,7 +159,7 @@ color: rgb(91, 90, 90);
   margin: 30px auto;
   background-image: url(img/Picture.jpeg);
   background-size: cover;
-  background-position: center;
+  background-position: center; 
   background-repeat: no-repeat;
   border-radius: 15px;
   box-shadow: 5px 7px 8px rgba(0, 0, 0, 0.3);
@@ -219,186 +218,364 @@ color: rgb(91, 90, 90);
   font-size: medium;
   font-weight: 520;
 }
-.trec1{ 
-    display:flex;
-    justify-content: center;
-    gap: 10px ;
+.trec1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-.AK3{
-    width: 28%;
-    height: 300px;
-    background-color: #ffffff;
-    box-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.3);
-    border-radius:  15px;
-    margin-top: 40px;
-    
+.AK3 {
+  width: 28%;
+  height: 300px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  margin-top: 40px;
 }
 
-.AK31{
-    height: 200px;  
-    background-image: url(./img/site\ vitrine.webp);
-    background-position: center-center;
-    background-repeat: no-repeat;
-    background-size: cover;
-     border-radius: 15px 15px 0px 0px;
+.AK31 {
+  height: 200px;
+  background-image: url(./img/site\ vitrine.webp);
+  background-position: center-center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.DHDJ{
-   
-    color: rgb(18, 18, 131);
-    background-color: white;
-   margin-left: 10px;
-   
+.DHDJ {
+  color: rgb(18, 18, 131);
+  background-color: white;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
-.SHEHE{
-  padding: 10px;
+.SHEHE {
+  padding: 10px 0px 10px 10px;
   color: rgb(91, 90, 90);
 }
 
-.AK32{
-    height: 200px;  
-    background-image: url(https://s3.gomedia.us/wp-content/uploads/2022/09/go-media-user-interface-design-components.jpg);
-    background-size: cover;
-    border-radius: 15px 15px 0px 0px;
+.AK32 {
+  height: 200px;
+  background-image: url(https://s3.gomedia.us/wp-content/uploads/2022/09/go-media-user-interface-design-components.jpg);
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.AK33{
-    height: 200px;  
-    background-image: url(https://file-uploads.teachablecdn.com/eeb7e6ec3b4e43c68ee95a3514d798e1/bbb477bf1af8401494856b381ed0325f);
-    background-size: cover;
-    border-radius: 15px 15px 0px 0px;
+.AK33 {
+  height: 200px;
+  background-image: url(https://file-uploads.teachablecdn.com/eeb7e6ec3b4e43c68ee95a3514d798e1/bbb477bf1af8401494856b381ed0325f);
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.AK34{
-    height: 200px;  
-    background-image: url(https://blog.kel-etude.com/storage/images/post_images/1726515511_students-studying-together-medium-shot_23-2148913227.jpg);
-    background-size: cover;
-    border-radius: 15px 15px 0px 0px;
+.AK34 {
+  height: 200px;
+  background-image: url(https://blog.kel-etude.com/storage/images/post_images/1726515511_students-studying-together-medium-shot_23-2148913227.jpg);
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.AK35{
-    height: 200px;  
-    background-image: url(https://img.freepik.com/photos-premium/jeune-enseignant-confiant-debout-devant-tableau-blanc-devant-apprenants-du-primaire_274679-39435.jpg?semt=ais_hybrid&w=740&q=80);
-    background-size: cover;
-    border-radius: 15px 15px 0px 0px;
+.AK35 {
+  height: 200px;
+  background-image: url(https://img.freepik.com/photos-premium/jeune-enseignant-confiant-debout-devant-tableau-blanc-devant-apprenants-du-primaire_274679-39435.jpg?semt=ais_hybrid&w=740&q=80);
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.AK36{
-    height: 200px;  
-    background-image: url(https://www.studycdn.space/sites/default/files/styles/hero_article_big/public/2024-01/formations-informatique.png.webp?itok=X4ZN5G77);
-    background-size: cover;
-    border-radius: 15px 15px 0px 0px;
+.AK36 {
+  height: 200px;
+  background-image: url(https://www.studycdn.space/sites/default/files/styles/hero_article_big/public/2024-01/formations-informatique.png.webp?itok=X4ZN5G77);
+  background-size: cover;
+  border-radius: 15px 15px 0px 0px;
 }
 
- .rectangle4 {
-        display: flex;
-       width: 85%;
-        height: 150px;
-      
-        margin: 20px auto;
-        border-radius: 18px;
-        gap: 30px;
+.rectangle4 {
+  display: flex;
+  width: 85%;
+  height: 150px;
 
-      }
-      .rt4 {
-        margin-top: 20px;
-        
-         width: 25%;
-        height: 90px;
-        border-radius: 10px;
-       background-color: white;
-        padding: 10px;
-        line-height: 25px;
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-      
-      align-items: center;
-       justify-content: center;
-       display: flex;
-       flex-direction: column;
-      
-       text-align: center;
-      }
+  margin: 20px auto;
+  border-radius: 18px;
+  gap: 30px;
+}
+.rt4 {
+  margin-top: 20px;
+
+  width: 25%;
+  height: 90px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  line-height: 25px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
 .rt4 h3 {
-  color: rgb(58, 58, 202);  
+  color: rgb(58, 58, 202);
 }
 .rt4 p {
   color: rgb(91, 90, 90);
   font-size: medium;
-  font-weight: 520;}  
+  font-weight: 520;
+}
 
- .rectangleavdern{
-          width: 85%;
-        height: 250px;
-        background: linear-gradient(80deg, rgb(47, 47, 234), rgb(87, 87, 255));
-        margin: 20px auto;
-        border-radius: 15px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          gap: 20px;
-          text-align: center;
-          color: white
-          ;
-          font-size: medium;
-          font-weight: 520;
-      }
-      .btncontact{
-        display: flex;
-        gap: 13px;
-      }
-      .email{
-        width: 180px;
-        height: 45px;
-        border-radius: 13px;
-        background:  linear-gradient(80deg, rgb(47, 47, 234), rgb(87, 87, 255));
-        color: white;
-        font-size: medium;
-        font-weight: 700;
-        border: none;
-        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
-      }
-      .email a{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-      }
+.rectangleavdern {
+  width: 85%;
+  height: 250px;
+  background: linear-gradient(80deg, rgb(47, 47, 234), rgb(87, 87, 255));
+  margin: 20px auto;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  color: white;
+  font-size: medium;
+  font-weight: 520;
+}
+.btncontact {
+  display: flex;
+  gap: 13px;
+}
+.email {
+  width: 180px;
+  height: 45px;
+  border-radius: 13px;
+  background: linear-gradient(80deg, rgb(47, 47, 234), rgb(87, 87, 255));
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+.email a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
 
-      .cv{
-        width: 180px;
-        height: 45px;
-        border-radius: 13px;
-        background-color:white;
-        color: rgb(9, 23, 51);
-        font-size: medium;
-        font-weight: 700;
-        border: 2px solid white;
-        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
-      }
-      .cv a{
-        text-decoration: none;
-        color: rgb(9, 23, 51);
-      }
-      .rectangledern{
-        border: 2px solid white;
-        height: 60px;
-        border-radius: 8px;
-        background-color: white;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-      }
-      .rondpetit{
-      justify-content: center;
-      display: flex;
-      gap: 10px;
-      margin: 10px auto;
-      }
-      .boule{ 
-        background-color:   rgb(134, 134, 243);
-        height: 10px;
-        width: 10px;
-        border-radius: 50%;}
-        
+.cv {
+  width: 180px;
+  height: 45px;
+  border-radius: 13px;
+  background-color: white;
+  color: rgb(9, 23, 51);
+  font-size: medium;
+  font-weight: 700;
+  border: 2px solid white;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+.cv a {
+  text-decoration: none;
+  color: rgb(9, 23, 51);
+}
+.rectangledern {
+  border: 2px solid white;
+  height: 60px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rondpetit {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin: 10px auto;
+}
+.boule {
+  background-color: rgb(134, 134, 243);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+
+/* tablette */
+@media(max-width: 1024px) {
+
+  .container {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .cons {
+    width: 100%;
+  }
+
+  .maphoto {
+    width: 100%;
+    height: 600px;
+  }
+  .desphoto {
+    transform: translate(260%, 40px);
+  }
+
+  .stat {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .trec1 {
+    flex-wrap: wrap;
+  }
+
+  .AK3 {
+    width: 45%;
+  }
+
+  .rectangle4 {
+    flex-wrap: wrap;
+    height: auto;
+    margin: auto;
+  }
+
+  .rt4 {
+    width: 45%;
+  }
+  .apmbloc {
+    width: 95%;
+    height: auto;
+  }
+}
+/* mobile */
+@media  (max-width: 430px) {
+
+
+  .barrenav {
+    height: 60px;
+    padding: 0 15px;
+  }
+
+  .nav {
+    width: 80%;
+    gap: 20px;
+  }
+  .nav li {
+    width: 40px;
+  }
+
+ 
+  .container {
+    width: 95%;
+    padding: 20px 15px;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+  .desphoto {
+    transform: translate(250px, 20px);
+    margin: auto;
+  }
+
+  .cons {
+    width: 100%;
+  }
+
+  .cons h1 {
+    font-size: 20px;
+  }
+
+  .cons p {
+    font-size: 14px;
+  }
+
+  
+  .btn {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .vmp, .Mc {
+    width: 100%;
+  }
+
+  
+  .stat {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prea, .motiv, .ui {
+    width: 100%;
+  }
+
+ 
+  .maphoto {
+    width: 100%;
+    height: 250px;
+  }
+
+  .desphoto {
+    transform: translate(0, 20px);
+    margin: auto;
+  }
+
+
+  .apm {
+    grid-template-columns: 1fr;
+  }
+
+  .apmbloc {
+    height: auto;
+  }
+
+
+  .trec1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AK3 {
+    width: 95%;
+  }
+
+ 
+  .rectangle4 {
+    flex-direction: column;
+    gap: 15px;
+    margin:10px auto;
+  }
+
+  .rt4 {
+    width: 100%;
+  }
+
+ 
+  .rectangleavdern {
+    padding: 20px;
+    height: auto;
+    margin: auto;
+  }
+
+  .rectangleavdern p {
+    font-size: 14px;
+  }
+
+  .btncontact {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .email, .cv {
+    width: 100%;
+  }
+ 
+  .rectangledern {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
