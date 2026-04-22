@@ -423,6 +423,8 @@ li a {
 
   .logo {
     margin: 0;
+    width: 50px;
+    height: 50px;
   }
 
   .nav {
@@ -437,7 +439,7 @@ li a {
   }
 
   li a {
-    font-size: 12px;
+    font-size: 15px;
   }
 
   /* --- HERO CONTAINER --- */
@@ -484,7 +486,9 @@ li a {
     width: 100%;
     font-size: 14px;
   }
-
+.vmp{
+  width: 270px;
+}
   /* --- STATS --- */
   .stat {
     flex-wrap: wrap;
@@ -521,7 +525,7 @@ li a {
   /* --- PHOTO --- */
   .maphoto {
     width: 100%;
-    height: 330px;
+    height:450px;
     margin: 0 auto;
     border-radius: 12px;
   }
