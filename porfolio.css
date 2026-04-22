@@ -163,7 +163,7 @@ li a {
 }
 .maphoto {
   width: 670px;
-  height: 450px;
+  height: 350px;
   margin: 30px auto;
   background-image: url(img/Picture.jpeg);
   background-size: cover;
@@ -303,7 +303,7 @@ li a {
   width: 85%;
   height: 150px;
 
-  margin: auto;
+  margin: 20px auto;
   border-radius: 18px;
   gap: 30px;
 }
@@ -338,7 +338,7 @@ li a {
   width: 85%;
   height: 250px;
   background: linear-gradient(80deg, rgb(47, 47, 234), rgb(87, 87, 255));
-  margin: auto;
+  margin: 20px auto;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -349,7 +349,6 @@ li a {
   color: white;
   font-size: medium;
   font-weight: 520;
-  margin-top: 40px;
 }
 .btncontact {
   display: flex;
@@ -395,7 +394,6 @@ li a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
- 
 }
 .rondpetit {
   justify-content: center;
@@ -426,7 +424,7 @@ li a {
 
   .maphoto {
     width: 100%;
-    height: 400px;
+    height: 600px;
   }
   .desphoto {
     display: none;
@@ -460,32 +458,22 @@ li a {
   }
 }
 /* mobile */
-@media  (max-width: 390px) {
+@media  (max-width: 430px) {
 
 
   .barrenav {
     height: 60px;
     padding: 0 15px;
-
   }
 
   .nav {
     width: 80%;
-    gap: 40px;
-    display: flex;
-    
-
+    gap: 20px;
   }
   .nav li {
-    width: 20px;
-    font-weight: 100;
+    width: 40px;
+    font-weight: 200;
   }
-  .nav li a {
-    font-size: 12px;
-    font-weight: 500;
-    
-  }
-
 
  
   .container {
@@ -495,12 +483,9 @@ li a {
     text-align: center;
     height: auto;
   }
-  .maphoto {
-    width: 100%;
-    height: 250px;
-  }
   .desphoto {
-  display: none;
+    transform: translate(250px, 20px);
+    margin: auto;
   }
 
   .cons {
@@ -529,12 +514,10 @@ li a {
   .stat {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
 
   .prea, .motiv, .ui {
-    width: 90%;
-    margin: auto;
+    width: 100%;
   }
 
  
@@ -544,7 +527,8 @@ li a {
   }
 
   .desphoto {
-    display: none;
+    transform: translate(0, 20px);
+    margin: auto;
   }
 
 
@@ -554,8 +538,6 @@ li a {
 
   .apmbloc {
     height: auto;
-      width: 95%;
-      margin: auto;
   }
 
 
