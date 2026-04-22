@@ -204,7 +204,7 @@ li a {
 
   margin: 30px auto;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 .apmbloc {
@@ -407,10 +407,154 @@ li a {
   width: 10px;
   border-radius: 50%;
 }
+@media screen and (max-width: 390px) {
 
+  /* ===== GLOBAL ===== */
+  body {
+    overflow-x: hidden;
+  }
 
-/* tablette */
-@media(max-width: 1024px) {
+  /* ===== NAVBAR ===== */
+  .barrenav {
+    padding: 0 10px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  /* ===== HERO ===== */
+  .container {
+    width: 95%;
+    padding: 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cons {
+    width: 100%;
+  }
+
+  .cons h1 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .cons p {
+    font-size: 13px;
+  }
+
+  /* ===== BOUTONS ===== */
+  .btn {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .vmp, .Mc {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  /* ===== STATS ===== */
+  .stat {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .prea, .motiv, .ui {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ===== IMAGE ===== */
+  .maphoto {
+    width: 100%;
+    height: 200px;
+  }
+
+  .desphoto {
+     /* width: 80%;
+    transform: translate(0, 10px);
+    margin: auto;
+    font-size: 12px; */
+    display: none;}
+  
+
+  /* ===== A PROPOS ===== */
+  .apm {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .apmbloc {
+    height: auto;
+    font-size: 13px;
+  }
+
+  /* ===== PROJETS ===== */
+  .trec1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .AK3 {
+    width: 100%;
+  }
+
+  /* ===== PROFIL ===== */
+  .rectangle4 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .rt4 {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ===== CONTACT ===== */
+  .rectangleavdern {
+    padding: 15px;
+    height: auto;
+  }
+
+  .rectangleavdern h2 {
+    font-size: 18px;
+  }
+
+  .rectangleavdern p {
+    font-size: 13px;
+  }
+
+  .btncontact {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .email, .cv {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  /* ===== FOOTER ===== */
+  .rectangledern {
+    font-size: 11px;
+    padding: 10px;
+    text-align: center;
+  }
+}
+/* ===== RESPONSIVE TABLETTE ===== */
+@media screen and (max-width: 1024px) {
 
   .container {
     flex-direction: column;
@@ -424,10 +568,7 @@ li a {
 
   .maphoto {
     width: 100%;
-    height: 600px;
-  }
-  .desphoto {
-    display: none;
+    height: 300px;
   }
 
   .stat {
@@ -446,144 +587,9 @@ li a {
   .rectangle4 {
     flex-wrap: wrap;
     height: auto;
-    margin: auto;
   }
 
   .rt4 {
     width: 45%;
   }
-  .apmbloc {
-    width: 95%;
-    height: auto;
-  }
 }
-/* mobile */
-@media  (max-width: 390px) {
-
-
-  .barrenav {
-    height: 60px;
-    padding: 0 15px;
-  }
-
-  .nav {
-    width: 80%;
-    gap: 20px;
-  }
-  .nav li {
-    width: 40px;
-    font-weight: 200;
-  }
-
- 
-  .container {
-    width: 95%;
-    padding: 20px 15px;
-    flex-direction: column;
-    text-align: center;
-    height: auto;
-  }
-  .desphoto {
-    /* transform: translate(250px, 20px); */
-    /* margin: auto;  */
-  }
-
-  .cons {
-    width: 100%;
-  }
-
-  .cons h1 {
-    font-size: 20px;
-  }
-
-  .cons p {
-    font-size: 14px;
-  }
-
-  
-  .btn {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .vmp, .Mc {
-    width: 100%;
-  }
-
-  
-  .stat {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .prea, .motiv, .ui {
-    width: 90%;
-  }
-
- 
-  .maphoto {
-    width: 100%;
-    height: 250px;
-  }
-
-  
-
-
-  .apm {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .apmbloc {
-    height: auto;
-    width: 100%;
-  }
-
-
-  .trec1 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .AK3 {
-    width: 95%;
-  }
-
- 
-  .rectangle4 {
-    flex-direction: column;
-    gap: 15px;
-    margin:10px auto;
-  }
-
-  .rt4 {
-    width: 100%;
-  }
-
- 
-  .rectangleavdern {
-    padding: 20px;
-    height: auto;
-    margin: auto;
-  }
-
-  .rectangleavdern p {
-    font-size: 14px;
-  }
-
-  .btncontact {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .email, .cv {
-    width: 100%;
-  }
- 
-  .rectangledern {
-    width: 100%;
-    font-size: 12px;
-    text-align: center;
-    padding: 10px;
-  }
-}
-
