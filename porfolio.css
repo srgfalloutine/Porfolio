@@ -204,7 +204,7 @@ li a {
 
   margin: 30px auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 30px;
 }
 .apmbloc {
@@ -484,8 +484,8 @@ li a {
     height: auto;
   }
   .desphoto {
-    transform: translate(250px, 20px);
-    margin: auto;
+    /* transform: translate(250px, 20px); */
+    /* margin: auto;  */
   }
 
   .cons {
@@ -517,7 +517,7 @@ li a {
   }
 
   .prea, .motiv, .ui {
-    width: 100%;
+    width: 90%;
   }
 
  
@@ -526,18 +526,16 @@ li a {
     height: 250px;
   }
 
-  .desphoto {
-    transform: translate(0, 20px);
-    margin: auto;
-  }
+  
 
 
   .apm {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .apmbloc {
     height: auto;
+    width: 100%;
   }
 
 
